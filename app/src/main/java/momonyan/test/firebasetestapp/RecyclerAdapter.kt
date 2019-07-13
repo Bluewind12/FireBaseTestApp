@@ -5,7 +5,7 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 
-class RecyclerAdapter(private val context: Context, private val itemList: List<OutputObject>) :
+class RecyclerAdapter(private val context: Context, private val itemList: List<DataBaseItemHolder>) :
     RecyclerView.Adapter<OutputViewHolder>() {
 
     override fun onBindViewHolder(holder: OutputViewHolder, position: Int) {
